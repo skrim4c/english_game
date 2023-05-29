@@ -6,6 +6,7 @@ import clases.HandleEvents as HandleEvents
 
 class app:
     # Initialize Pygame
+    ##
     pygame.init()
     arr_data = {}
     screen,frames = C.LoadsResources.init(pygame)
